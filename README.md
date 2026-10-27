@@ -9,9 +9,9 @@ O trabalho modela em BPMN o rito do procedimento comum do Código de Processo Ci
 | pasta | conteúdo |
 |---|---|
 | `scripts/` | coleta, tratamento, medições e figuras |
-| `modelo/` | o modelo normativo: `modelo_normativo.bpmn`, gerado a partir da árvore de processo usada no cálculo, e `modelo_normativo_leitura.bpmn`, a versão desenhada para leitura (Figura 4) |
+| `modelo/` | o modelo normativo: `modelo_normativo.bpmn`, gerado a partir da árvore de processo usada no cálculo, e `modelo_normativo_leitura.bpmn`, a versão desenhada para leitura (Figura 2) |
 | `resultados/` | as saídas dos scripts, com os números citados no artigo |
-| `figuras/` | as figuras do artigo |
+| `figuras/` | as figuras do artigo e dois gráficos dos prazos que ficaram fora dele |
 | `dados/tpu/` | a classificação dos movimentos pela tabela oficial da TPU, usada pelos scripts |
 
 ## O que não está aqui
@@ -40,7 +40,7 @@ Rode os scripts com `python -X utf8`, para que os arquivos de resultado saiam em
 |---|---|---|
 | 1. coleta | `python -X utf8 scripts/baixar_amostra_datajud.py --sorteio-por-mes 200 --semente 2026 --pagina 50 --saida dados` | `dados/datajud_tjsp_classe7_G1_2022-01-01_2022-12-31_sorteio200pormes_semente2026_eventos.csv` e o `.jsonl` dos processos. Com a API respondendo 429 e 504, a coleta leva cerca de 2 horas; o script grava cada mês em disco e retoma de onde parou |
 | 2. prazos do juiz | `python -X utf8 scripts/medir_prazos_do_juiz.py LOG` | Tabela 1 |
-| 3. figuras dos prazos | `python -X utf8 scripts/gerar_resultados.py LOG figuras` | Figuras 2 e 3 e os números da seção 4.1 |
+| 3. figuras dos prazos | `python -X utf8 scripts/gerar_resultados.py LOG figuras` | os gráficos dos prazos (`atos_acima_do_prazo.png` e `sentencas_dias_uteis.png`, fora do artigo) e os números da seção 4.1 |
 | 4. fluxo descoberto | `python -X utf8 scripts/descobrir_fluxo.py LOG figuras/fluxo_descoberto_amostra_final.png 0.2 2000` | Figura 1 (atividades em pelo menos 20% dos processos, ligações com pelo menos 2.000 passagens) |
 | 5. tempos do fluxo | `python -X utf8 scripts/medir_tempos_do_fluxo.py LOG 0.2 500` | tempos medianos da seção 4.2 |
 | 6. remessa dos autos | `python -X utf8 scripts/medir_remessa_dos_autos_conclusos.py LOG` | prazo do art. 228, seção 4.3 |
@@ -52,7 +52,7 @@ Rode os scripts com `python -X utf8`, para que os arquivos de resultado saiam em
 
 A tabela da TPU em `dados/tpu/` pode ser refeita com o download oficial (`https://gateway.cloud.pje.jus.br/tpu/api/v1/publico/download/movimentos`) e `python -X utf8 scripts/classificar_pela_tpu.py tpu_movimentos.json dados/tpu/tpu_classificacao.csv`.
 
-A Figura 4 é desenhada com o bpmn-js a partir de `modelo_normativo_leitura.bpmn`:
+A Figura 2 é desenhada com o bpmn-js a partir de `modelo_normativo_leitura.bpmn`:
 
 ```bash
 python -X utf8 scripts/montar_pagina_do_bpmn.py modelo/modelo_normativo_leitura.bpmn modelo/visualizar_modelo.html
