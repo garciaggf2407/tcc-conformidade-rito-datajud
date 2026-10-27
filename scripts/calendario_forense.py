@@ -14,7 +14,7 @@ DIAS_SEM_EXPEDIENTE_NO_TJSP = {
         date(2022, 6, 16), date(2022, 6, 17),
         date(2022, 9, 7), date(2022, 10, 12), date(2022, 10, 28),
         date(2022, 11, 2), date(2022, 11, 14), date(2022, 11, 15),
-        date(2022, 12, 8),
+        date(2022, 12, 9),
     } | intervalo_de_dias(date(2022, 12, 20), date(2022, 12, 31)),
     2023: intervalo_de_dias(date(2023, 1, 1), date(2023, 1, 6)) | {
         date(2023, 2, 20), date(2023, 2, 21),

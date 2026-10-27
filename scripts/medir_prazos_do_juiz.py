@@ -85,3 +85,10 @@ for categoria in ORDEM_DAS_CATEGORIAS:
         f"{median(medicao[1] for medicao in medicoes):>13.1f}  {median(dias_uteis):>13.1f}  {percentil_90:>9.1f}  {prazo:>4}d  "
         f"{100 * proporcao_acima_do_prazo(medicoes, prazo):>5.1f}% ({100 * limite_inferior:4.1f}% a {100 * limite_superior:4.1f}%)"
     )
+print()
+print("Atos sem nenhum dia útil decorrido desde a Conclusão:")
+for categoria in ORDEM_DAS_CATEGORIAS:
+    medicoes = medicoes_por_categoria[categoria]
+    if medicoes:
+        sem_dia_util = sum(1 for _, _, dias_uteis in medicoes if dias_uteis == 0)
+        print(f"{categoria:>22}  {100 * sem_dia_util / len(medicoes):5.1f}%")

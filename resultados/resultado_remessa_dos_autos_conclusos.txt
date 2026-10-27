@@ -13,5 +13,5 @@ Movimento imediatamente anterior a cada Conclusão:
 
 Remessa dos autos conclusos (art. 228), medida quando a Conclusão vem logo depois de juntada de petição ou documento; prazo de 1 dia útil:
     petição ou documento: 8563 remessas em 2219 processos; mediana 1.8 dias corridos e 1.0 úteis; p90 20.0 úteis; sem dia útil decorrido 26.1%; acima do prazo 43.7% (42.1% a 45.4%)
-                 petição: 7883 remessas em 2191 processos; mediana 2.0 dias corridos e 1.0 úteis; p90 20.0 úteis; sem dia útil decorrido 23.0%; acima do prazo 45.1% (43.4% a 46.9%)
+                 petição: 7883 remessas em 2191 processos; mediana 2.0 dias corridos e 1.0 úteis; p90 20.0 úteis; sem dia útil decorrido 23.0%; acima do prazo 45.1% (43.3% a 46.9%)
                documento: 680 remessas em 514 processos; mediana 0.0 dias corridos e 0.0 úteis; p90 16.0 úteis; sem dia útil decorrido 62.4%; acima do prazo 27.2% (23.6% a 31.2%)

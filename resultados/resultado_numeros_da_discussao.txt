@@ -1,8 +1,8 @@
 1. Sensibilidade ao critério de início da contagem: última Conclusão antes do ato (critério do trabalho) x primeira de uma sequência de Conclusões seguidas
-                despacho: 4004 atos, 805 precedidos de Conclusões seguidas; contando da última: 14.2% acima do prazo (12.8% a 15.8%); contando da primeira: 21.3% acima do prazo (19.6% a 23.1%)
+                despacho: 4004 atos, 805 precedidos de Conclusões seguidas; contando da última: 14.2% acima do prazo (12.7% a 15.8%); contando da primeira: 21.3% acima do prazo (19.6% a 23.1%)
                  decisao: 7152 atos, 1451 precedidos de Conclusões seguidas; contando da última: 10.1% acima do prazo (9.2% a 11.0%); contando da primeira: 14.5% acima do prazo (13.4% a 15.5%)
                 sentenca: 2392 atos, 900 precedidos de Conclusões seguidas; contando da última: 18.9% acima do prazo (17.4% a 20.5%); contando da primeira: 25.3% acima do prazo (23.6% a 27.1%)
-  embargos_de_declaracao: 317 atos, 93 precedidos de Conclusões seguidas; contando da última: 26.8% acima do prazo (21.9% a 31.6%); contando da primeira: 30.9% acima do prazo (25.5% a 35.7%)
+  embargos_de_declaracao: 317 atos, 93 precedidos de Conclusões seguidas; contando da última: 27.1% acima do prazo (22.0% a 31.7%); contando da primeira: 31.2% acima do prazo (25.8% a 36.0%)
 
 2. Grupos com pelo menos 30 sentenças na amostra
   unidades judiciárias: 623 com sentença; 0 com pelo menos 30; maior: 22 sentenças
