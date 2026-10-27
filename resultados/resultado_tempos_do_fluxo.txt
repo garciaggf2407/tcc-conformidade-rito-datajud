@@ -1,0 +1,46 @@
+Processos: 2390; ligações com pelo menos 500 passagens: 41 de 215
+Tempo entre atividades no grafo da Figura 1 (dias corridos):
+                          de                          para  passagens  mediana  p. do tempo total
+                     Remessa                    Publicação      17555      0.9               1.7%
+                  Publicação                       Petição      10444      9.1              11.0%
+                     Petição                     Conclusão       8029      2.0               7.2%
+                   Conclusão                Decisão (juiz)       6722      0.3               3.0%
+              Decisão (juiz)                       Remessa       5898      0.3               0.3%
+             Ato ordinatório                       Remessa       5109      0.1               0.2%
+                  Publicação        Expedição de documento       3987      9.4               7.5%
+                     Petição               Ato ordinatório       3777      2.8               3.2%
+                   Conclusão               Despacho (juiz)       3718      0.4               1.6%
+                   Conclusão                     Conclusão       3566      2.7               3.9%
+             Despacho (juiz)                       Remessa       3560      0.3               0.2%
+      Expedição de documento        Expedição de documento       3467      0.0               2.6%
+                     Petição                       Petição       3443      3.9               2.5%
+      Expedição de documento                       Remessa       2881      0.1               0.2%
+                   Documento                     Documento       2656      0.0               0.9%
+                     Petição        Expedição de documento       2265      6.3               3.0%
+             Sentença (juiz)                       Remessa       2238      0.3               0.2%
+                   Conclusão               Sentença (juiz)       2166      3.8               3.6%
+                   Documento                       Petição       2081     14.7               2.6%
+      Expedição de documento                     Documento       2077      9.4               2.1%
+      Expedição de documento                     Conclusão       1988      0.0               0.9%
+             Ato ordinatório        Expedição de documento       1978      0.1               1.7%
+                Distribuição                     Conclusão       1846      0.7               0.4%
+      Expedição de documento                       Petição       1833      6.7               2.4%
+      Expedição de documento                    Definitivo       1666      0.0               0.0%
+                  Publicação                     Documento       1650      8.4               1.8%
+                   Documento               Ato ordinatório       1362      0.9               1.5%
+              Decisão (juiz)        Expedição de documento       1188      0.0               0.0%
+                  Publicação               Ato ordinatório       1166     13.0               2.5%
+      Expedição de documento               Ato ordinatório       1117      1.8               1.5%
+                     Petição                     Documento        959      3.9               0.9%
+                     Remessa        Expedição de documento        923      0.4               0.1%
+                   Documento        Expedição de documento        843      2.0               1.2%
+      Expedição de documento                    Publicação        835      0.5               0.1%
+                     Remessa                       Petição        744      0.6               1.4%
+                   Documento                     Conclusão        735      0.0               0.6%
+                   Conclusão                       Petição        726      5.2               0.9%
+                     Remessa                   Recebimento        675    115.4               8.0%
+                 Recebimento                     Conclusão        595      1.0               0.3%
+                  Publicação                     Conclusão        588      5.5               1.0%
+                     Petição                    Publicação        502      0.5               0.0%
+As ligações mantidas somam 84.7% do tempo entre atividades do log filtrado.
+As ligações da Conclusão ao despacho, à decisão e à sentença somam 8.3% desse tempo.

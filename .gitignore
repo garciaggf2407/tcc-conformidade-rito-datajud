@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+dados/*
+!dados/tpu/
+modelo/log_do_rito.csv
+modelo/aderencia_por_processo.csv
+modelo/visualizar_modelo.html

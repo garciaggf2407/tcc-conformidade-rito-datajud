@@ -1,0 +1,8 @@
+Conclusões sem ato do juiz, pelo que vem depois:
+   3546  outra Conclusão em seguida
+    517  outro movimento e depois nova Conclusão ou fim
+     52  fim dos dados
+Processos com sentença até o fim dos dados: 2182 de 2390
+Dias corridos da distribuição à primeira sentença: mediana 206, quartis 108 e 390
+Comarcas com pelo menos 30 atos do tipo: {'decisao': 49, 'despacho': 30, 'sentenca': 15, 'embargos_de_declaracao': 1}
+Figuras gravadas em figuras

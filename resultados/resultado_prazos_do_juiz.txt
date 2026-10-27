@@ -1,0 +1,14 @@
+Processos: 2390
+O que vem depois de cada Conclusão (51):
+    7152  seguida de decisao
+    4115  sem ato do juiz antes da próxima Conclusão ou do fim
+    4004  seguida de despacho
+    2392  seguida de sentenca
+     317  seguida de embargos_de_declaracao
+
+Intervalo entre a Conclusão e o ato do juiz (dias úteis: sem fins de semana, feriados, dias sem expediente do TJSP e recesso do art. 220):
+                   ato   atos  processos  mediana corr.  mediana úteis  p90 úteis  prazo     acima do prazo (IC 95%)
+              despacho   4004       1421            0.5            0.0       11.0     5d   14.2% (12.8% a 15.8%)
+               decisao   7152       2306            0.4            0.0       11.0    10d   10.1% ( 9.2% a 11.0%)
+              sentenca   2392       2156            5.0            3.0       51.0    30d   18.9% (17.4% a 20.5%)
+embargos_de_declaracao    317        293            1.2            1.0       24.2     5d   26.8% (21.9% a 31.6%)

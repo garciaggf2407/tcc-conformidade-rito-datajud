@@ -1,0 +1,30 @@
+1. Sensibilidade ao critério de início da contagem: última Conclusão antes do ato (critério do trabalho) x primeira de uma sequência de Conclusões seguidas
+                despacho: 4004 atos, 805 precedidos de Conclusões seguidas; contando da última: 14.2% acima do prazo (12.8% a 15.8%); contando da primeira: 21.3% acima do prazo (19.6% a 23.1%)
+                 decisao: 7152 atos, 1451 precedidos de Conclusões seguidas; contando da última: 10.1% acima do prazo (9.2% a 11.0%); contando da primeira: 14.5% acima do prazo (13.4% a 15.5%)
+                sentenca: 2392 atos, 900 precedidos de Conclusões seguidas; contando da última: 18.9% acima do prazo (17.4% a 20.5%); contando da primeira: 25.3% acima do prazo (23.6% a 27.1%)
+  embargos_de_declaracao: 317 atos, 93 precedidos de Conclusões seguidas; contando da última: 26.8% acima do prazo (21.9% a 31.6%); contando da primeira: 30.9% acima do prazo (25.5% a 35.7%)
+
+2. Grupos com pelo menos 30 sentenças na amostra
+  unidades judiciárias: 623 com sentença; 0 com pelo menos 30; maior: 22 sentenças
+  foros (quatro últimos dígitos do número): 237 com sentença; 15 com pelo menos 30
+
+3. Processos sem etapa intermediária registrada antes da primeira sentença: o que há entre a distribuição e a sentença
+  processos: 1955
+  com pelo menos 1 petição(ões) juntada(s) antes da sentença: 1867 (95.5%)
+  com pelo menos 2 petição(ões) juntada(s) antes da sentença: 1675 (85.7%)
+  com pelo menos 3 petição(ões) juntada(s) antes da sentença: 1449 (74.1%)
+  mediana de petições antes da sentença: 5
+  com algum movimento de audiência (qualquer tipo ou situação) antes da sentença: 26 (1.3%)
+  primeira sentença, pelo ramo da TPU:
+     1419 (72.6%)  com resolução de mérito, fora a homologação de acordo
+      347 (17.7%)  sem resolução de mérito
+      189 ( 9.7%)  homologação de acordo (transação)
+
+4. Movimentos de audiência (código 970), sem repetições, pelo que o complemento informa
+  movimentos: 225; sem tipo informado: 55
+  realizadas: 152; realizadas sem tipo informado: 23
+  sem situação informada: 24
+
+5. Processos sem sentença registrada: tempo entre o ajuizamento e a última atualização do registro no DataJud
+  processos: 228; dias entre o ajuizamento e a última atualização: mínimo 615, mediana 852.5, máximo 1120
+  com menos de 730 dias: 43

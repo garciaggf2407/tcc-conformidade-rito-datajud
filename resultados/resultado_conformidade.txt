@@ -1,0 +1,39 @@
+Processos com sentença, analisados: 2162; sem sentença até o fim dos dados, fora da análise: 228; cortados no início do cumprimento de sentença: 732
+Padrões nas sequências dos processos com sentença:
+   1955 (90.4%)  nenhuma etapa intermediária observável antes da sentença
+     14 ( 0.6%)  audiência de instrução sem saneamento registrado antes
+     14 ( 0.6%)  mais de uma sentença registrada
+     12 ( 0.6%)  sentença registrada depois do trânsito em julgado
+      4 ( 0.2%)  conciliação depois do saneamento
+      4 ( 0.2%)  etapa anterior à sentença registrada depois dela
+Processos em que cada etapa aparece:
+   2162 (100.0%)  Distribuição
+   2162 (100.0%)  Sentença
+    688 (31.8%)  Trânsito em julgado
+    300 (13.9%)  Emenda da inicial
+    118 ( 5.5%)  Saneamento
+     90 ( 4.2%)  Audiência de conciliação
+     19 ( 0.9%)  Audiência de instrução
+Aderência média por processo: 0.997; aderência do log: {'percFitTraces': 98.33487511563368, 'averageFitness': 0.996840447557376, 'percentage_of_fitting_traces': 98.33487511563368, 'average_trace_fitness': 0.996840447557376, 'log_fitness': 0.9955854763998793}
+Processos totalmente aderentes: 2126 (98.3%)
+Processos com algum desvio: 36 (1.7%)
+Etapas registradas fora do lugar previsto no rito (movimentos só no log):
+     14  Audiência de instrução
+     14  Sentença
+      8  Trânsito em julgado
+      5  Saneamento
+      2  Audiência de conciliação
+Etapas obrigatórias do modelo que não aparecem (movimentos só no modelo):
+Variantes mais frequentes:
+   1145 (53.0%)  Distribuição → Sentença
+    521 (24.1%)  Distribuição → Sentença → Trânsito em julgado
+    183 ( 8.5%)  Distribuição → Emenda da inicial → Sentença
+     92 ( 4.3%)  Distribuição → Emenda da inicial → Sentença → Trânsito em julgado
+     65 ( 3.0%)  Distribuição → Saneamento → Sentença
+     52 ( 2.4%)  Distribuição → Audiência de conciliação → Sentença
+     22 ( 1.0%)  Distribuição → Saneamento → Sentença → Trânsito em julgado
+     19 ( 0.9%)  Distribuição → Audiência de conciliação → Sentença → Trânsito em julgado
+      7 ( 0.3%)  Distribuição → Emenda da inicial → Saneamento → Sentença
+      6 ( 0.3%)  Distribuição → Emenda da inicial → Saneamento → Sentença → Trânsito em julgado
+      6 ( 0.3%)  Distribuição → Sentença → Trânsito em julgado → Sentença
+      4 ( 0.2%)  Distribuição → Audiência de instrução → Sentença → Trânsito em julgado
