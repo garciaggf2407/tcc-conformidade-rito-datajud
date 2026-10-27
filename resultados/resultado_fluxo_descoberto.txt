@@ -1,0 +1,25 @@
+Processos: 2390
+Atividades presentes em pelo menos 20% dos processos: 16 de 50
+Atividades no desenho: 11; ligações com pelo menos 2000 passagens, mais a que sai de Distribuição: 21 de 215
+   17555  Remessa -> Publicação
+   10444  Publicação -> Petição
+    8029  Petição -> Conclusão
+    6722  Conclusão -> Decisão
+    5898  Decisão -> Remessa
+    5109  Ato ordinatório -> Remessa
+    3987  Publicação -> Expedição de documento
+    3777  Petição -> Ato ordinatório
+    3718  Conclusão -> Despacho
+    3566  Conclusão -> Conclusão
+    3560  Despacho -> Remessa
+    3467  Expedição de documento -> Expedição de documento
+    3443  Petição -> Petição
+    2881  Expedição de documento -> Remessa
+    2656  Documento -> Documento
+    2265  Petição -> Expedição de documento
+    2238  Sentença -> Remessa
+    2166  Conclusão -> Sentença
+    2081  Documento -> Petição
+    2077  Expedição de documento -> Documento
+    1846  Distribuição -> Conclusão
+Figura: figuras\fluxo_descoberto_amostra_final.png
